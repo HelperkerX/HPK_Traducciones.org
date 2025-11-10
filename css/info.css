@@ -1,0 +1,11 @@
+.info {
+    position: relative;
+    z-index: 3;
+    margin: 0 25px 0 25px;
+
+    * {
+        text-align: center;
+        color: #F1E3C8;
+    }
+
+}
