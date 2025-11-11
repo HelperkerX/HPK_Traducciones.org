@@ -1,27 +1,41 @@
-        body {
-            background-image: url('../img/backGround.webp');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            margin: 0 auto;
-            position: relative;
-        }
+body {
+    margin: 0;
+    position: relative;
+}
 
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
-        .background {
-            position: absolute;
-            top: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            height: 100%;
-            width: 90%;
-            background-color: rgba(0, 0, 0, 0.1);
-            z-index: 2;
-            display: block;
-        }
+.background .background1 {
+    background-image: url('../img/backGround.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    display: block;
+}
 
-        .main {
-            margin: 0 auto;
-            position: relative;
-            z-index: 4;
-        }
+.background .background2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.20);
+    z-index: 3;
+    display: block;
+}
+
+.main {
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}

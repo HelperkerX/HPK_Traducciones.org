@@ -1,6 +1,5 @@
 .carrousel {
     position: relative;
-    z-index: 8;
     margin-top: 80px;
     /**
     * Owl Carousel v2.1.1
@@ -17,7 +16,6 @@
     .owl-carousel {
         display: none;
         width: 100%;
-        z-index: 1
     }
 
     .owl-carousel .owl-stage {

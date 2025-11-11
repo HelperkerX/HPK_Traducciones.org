@@ -17,7 +17,6 @@
         background-size: cover;
         background-position: center;
         background-blend-mode: multiply;
-        z-index: 1;
     }
 
     .image-overlay {
