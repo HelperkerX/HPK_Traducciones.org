@@ -1,0 +1,68 @@
+.content {
+    margin: 0 auto;
+    position: relative;
+    z-index: 4;
+}
+
+.contenedor-central {
+    border: solid 2px #FF0000;
+    background-color: #1F2125;
+    height: 1000px;
+    color: #F1E3C8;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Imagen centrada */
+.imagen-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagen-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* H1 centrado parcialmente dentro del bloque */
+.titulo {
+    margin-left: 10%;
+    /* centrado aproximado */
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Objetos (desplegables) */
+.objetos {
+    margin-left: 10%;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.objeto {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.flecha {
+    font-weight: bold;
+    margin-right: 5px;
+    display: inline-block;
+    width: 20px;
+    transition: transform 0.3s;
+}
+
+.subitems {
+    display: none;
+    margin: 10px 15% 0px 5%;
+}
+
+.subitem {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "titulo": "Manga - Sombras del Amanecer",
+        "descripcion": "Un joven guerrero descubre un secreto que cambiará el destino de su aldea.",
+        "categoria": "Manga",
+        "etiquetas": [
+            "acción",
+            "fantasía",
+            "aventura"
+        ],
+        "notas": "Capítulo 1 traducido y revisado por el equipo Beta.",
+        "fecha_publicacion": "2025-11-10",
+        "autor_traduccion": "Kira",
+        "estado": "Publicado"
+    },
+    {
+        "titulo": "Juego - Cielos Perdidos",
+        "descripcion": "RPG con ambientación steampunk donde los jugadores pilotan naves flotantes en batallas aéreas.",
+        "categoria": "Juego",
+        "etiquetas": [
+            "rpg",
+            "aventura",
+            "steampunk"
+        ],
+        "notas": "Traducción parcial del menú y diálogo inicial.",
+        "fecha_publicacion": "2025-11-08",
+        "autor_traduccion": "Alex",
+        "estado": "En progreso"
+    },
+    {
+        "titulo": "Multimedia - Opening de Sombras del Amanecer",
+        "descripcion": "Video de introducción con subtítulos traducidos y sincronizados.",
+        "categoria": "Multimedia",
+        "etiquetas": [
+            "video",
+            "subtitulado",
+            "música"
+        ],
+        "notas": "Subtítulos sincronizados al 99%.",
+        "fecha_publicacion": "2025-11-09",
+        "autor_traduccion": "Luna",
+        "estado": "Publicado"
+    },
+    {
+        "titulo": "Manga - Ecos del Inframundo",
+        "descripcion": "Una detective espiritual debe resolver casos entre el mundo de los vivos y los muertos.",
+        "categoria": "Manga",
+        "etiquetas": [
+            "misterio",
+            "sobrenatural",
+            "drama"
+        ],
+        "notas": "Traducción del capítulo 2 en revisión.",
+        "fecha_publicacion": "2025-11-11",
+        "autor_traduccion": "Ryu",
+        "estado": "En revisión"
+    },
+    {
+        "titulo": "Juego - Crystal Hearts Remake",
+        "descripcion": "Versión remasterizada con doblaje en español y textos traducidos completamente.",
+        "categoria": "Juego",
+        "etiquetas": [
+            "rpg",
+            "fantasía",
+            "remake"
+        ],
+        "notas": "Proyecto finalizado con revisión completa de interfaz y diálogos.",
+        "fecha_publicacion": "2025-11-12",
+        "autor_traduccion": "Team Omega",
+        "estado": "Publicado"
+    }
+]

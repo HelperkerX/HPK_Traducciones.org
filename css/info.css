@@ -1,10 +1,15 @@
 .info {
     position: relative;
-    margin: 0 25px 0 25px;
+    margin: 50px 20% 50px 20%;
 
     * {
-        text-align: center;
         color: #F1E3C8;
     }
 
+}
+
+@media (orientation: portrait) {
+    .info {
+        margin: 50px 10% 50px 10%;
+    }
 }

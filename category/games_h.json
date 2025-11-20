@@ -1,0 +1,206 @@
+[
+  {
+    "id": 1,
+    "slug": "adventure-log-alog",
+    "titulo": "Adventure LOG [ALOG]",
+    "portada": "img/alog.webp",
+    "alt": "Adventure Log",
+    "descripcion": [
+      "Erni Bryce",
+      "Originalmente era una joven de 17 años, miembro de la guardia personal y de la orden de caballería de la Santa, que vivía en Cali Vahas. Sin embargo, tras el incidente de la Puerta, en el que su familia murió o desapareció, decidió emprender un viaje en busca de venganza y de sus seres queridos.",
+      "Su aventura comienza en el Bosque Errante, y recorre muchos lugares. El juego ofrece una gran libertad, por lo que, a pesar de que aún está en desarrollo, es posible tener hijos, usar diferentes vestimentas o asumir diversas identidades durante la partida.",
+      "Su figura es atractiva, tanto por su apariencia como por los diálogos dentro del juego, donde esto también se deja entrever.",
+      "En el prólogo de la Santa también aparece, mostrándose sorprendida al ver que las fuerzas demoníacas —la supuesta arma final contra la humanidad— atacan de una forma distinta a lo habitual.",
+      "Además de ella, existen demonios, NPCs y otros personajes secundarios, pero el contenido aún es limitado.",
+      "El programa de producción es RPG Maker VX Ace, y se distribuye de forma gratuita."
+    ],
+    "historia": [
+      "En el continente fantástico de Islands, bajo la bendición de la diosa Elzairen,los humanos disfrutaban de una era de paz sin precedentes. Aunque existía una guerra contra los demonios, gracias a que la Santa, representante de la diosa, utilizaba el sacrificio conocido como Sacrifice para derrotarlos, los demonios habían sido rechazados durante décadas. Así, hasta el año 665 del calendario continental, la humanidad vivió una auténtica edad dorada.",
+      "Sin embargo, hace un año, cuando parecía que todo terminaría de la misma manera que antaño —repeliendo las ofensivas de los demonios desde las murallas—, ocurrió lo inesperado: los demonios, aprendiendo de las derrotas pasadas, abrieron Puertas y lanzaron ataques sorpresa en la retaguardia de todas las ciudades humanas. Las mujeres fueron secuestradas y la mayoría de los demás perecieron en la catástrofe, iniciándose así la era oscura de la humanidad.",
+      "En medio de esta tragedia, Erni Bryce, que servía en la guardia personal de la Santa, decide abandonar su puesto para emprender una aventura en busca de venganza por su padre fallecido y de su familia desaparecida.",
+      "La aventura de Erni Bryce comienza en el Bosque Errante."
+    ],
+    "detalles": {
+      "tituloOriginal": "adventure log",
+      "version": "1.1.18",
+      "autor": "ALOG",
+      "motor": "Rpg Maker VXace",
+      "peso": "1GB",
+      "password": "Rpg Maker VXace"
+    },
+    "etiquetas": [
+      "accion",
+      "fantasía",
+      "aventura",
+      "RPGM_VXace",
+      "ARPG",
+      "mundo_abierto"
+    ],
+    "guia_instalacion": {
+      "principal": "No es necesario extraerlo pues el parche viene con el propio juego",
+      "secundario": [
+        "Si no llegué a especificar su guía de instalación estaré dejando estos detalles",
+        "Si el juego es Rpg maker VXace/VX/XP solo basta con extraerlo en la carpeta raiz del juego",
+        "Si el juego es rpg maker MV/MZ y se encuentra enpaquetado (Posee carpeta www) se deberá extraer ahi mismo",
+        "En caso contrario dentro de la carpeta raiz del juego."
+      ]
+    },
+    "fecha_publicacion": "2025-11-10",
+    "traductor": "HelperkerX",
+    "estado": "borrador"
+  },
+  {
+    "id": 2,
+    "slug": "lost-chronicles-lc",
+    "titulo": "Lost Chronicles",
+    "portada": "img/lc.webp",
+    "alt": "Lost Chronicles",
+    "descripcion": [
+      "Una joven historiadora que descubre textos prohibidos sobre la desaparición de civilizaciones antiguas.",
+      "La protagonista mantiene una actitud curiosa, reflexiva y decidida a revelar la verdad."
+    ],
+    "historia": [
+      "Hace siglos, un cataclismo borró del mundo a los Guardianes del Alba.",
+      "Su aventura la lleva a la Cámara del Horizonte, una estructura mítica capaz de alterar la memoria del mundo."
+    ],
+    "detalles": {
+      "tituloOriginal": "Lost Chronicles",
+      "version": "0.9.3",
+      "autor": "Moonforge",
+      "motor": "Rpg Maker MV",
+      "peso": "650MB",
+      "password": "MoonforgeMV"
+    },
+    "etiquetas": [
+      "misterio",
+      "aventura",
+      "puzzles",
+      "RPGM_MV",
+      "historia"
+    ],
+    "guia_instalacion": {
+      "principal": "Extraer en la carpeta raíz y ejecutar el archivo index.html o game.exe según el modo.",
+      "secundario": [
+        "Si contiene carpeta www, colocar los parches dentro.",
+        "Comprobar que no existan archivos duplicados."
+      ]
+    },
+    "fecha_publicacion": "2025-10-22",
+    "traductor": "HelperkerX",
+    "estado": "completo"
+  },
+  {
+    "id": 4,
+    "slug": "crimson-tides-ct",
+    "titulo": "Crimson Tides",
+    "portada": "img/ct.webp",
+    "alt": "Crimson Tides",
+    "descripcion": [
+      "Una guerrera exiliada cuyo destino está ligado a una antigua maldición marítima.",
+      "Incluye un sistema de barcos, clima dinámico y moral de tripulación."
+    ],
+    "historia": [
+      "La Marea Carmesí cubrió los mares hace décadas, trayendo criaturas deformadas.",
+      "Cada isla guarda piezas del sello roto que mantiene a raya a un antiguo titán oceánico."
+    ],
+    "detalles": {
+      "tituloOriginal": "Crimson Tides",
+      "version": "1.4.2",
+      "autor": "BlueHarpoon",
+      "motor": "Godot 4",
+      "peso": "2.1GB",
+      "password": "CrimsonHarpoon"
+    },
+    "etiquetas": [
+      "accion",
+      "aventura",
+      "ARPG",
+      "godot",
+      "maritimo"
+    ],
+    "guia_instalacion": {
+      "principal": "Ejecutar el instalador y seleccionar ruta.",
+      "secundario": [
+        "Para mods o traducciones, colocarlos en la carpeta mods/",
+        "Verificar compatibilidad de versiones."
+      ]
+    },
+    "fecha_publicacion": "2025-08-17",
+    "traductor": "HelperkerX",
+    "estado": "completo"
+  },
+  {
+    "id": 5,
+    "slug": "Hora de aventura",
+    "titulo": "Hora de aventura",
+    "portada": "https://kinsta.com/wp-content/uploads/2021/03/HTML-5-Badge-Logo.png",
+    "alt": "Portada del juego",
+    "descripcion": [
+      "Esta es la descripcion de hroa de aventura",
+      "y nada mas que una simple descripcion"
+    ],
+    "historia": [
+      "Es la historia de fin y jake",
+      "son muchas aventuras"
+    ],
+    "detalles": {
+      "tituloOriginal": "Adventure Time",
+      "version": "No hay version",
+      "autor": "Ni idea",
+      "motor": "No es un juego",
+      "peso": "100GB",
+      "password": "HelperkerX"
+    },
+    "etiquetas": [
+      "Caricatura",
+      "Anime",
+      "Colorido"
+    ],
+    "guia_instalacion": {
+      "principal": "Simplemente vealo",
+      "secundario": [
+        "Nada mas que decir"
+      ]
+    },
+    "fecha_publicacion": "2004/17/2",
+    "traductor": "HelperkerX",
+    "estado": "Publicado"
+  },
+  {
+    "id": 6,
+    "slug": "Betty la fea",
+    "titulo": "Betti la fea",
+    "portada": "https://jarcasting.com/assets/findjar.icon.png?",
+    "alt": "imagen de betty",
+    "descripcion": [
+      "betti no es realmente fea",
+      "almenos no del todo"
+    ],
+    "historia": [
+      "es una historia de superacion",
+      "de superar la belleza"
+    ],
+    "detalles": {
+      "tituloOriginal": "betti la bella",
+      "version": "no se",
+      "autor": "helper",
+      "motor": "novela",
+      "peso": "0",
+      "password": "ninguna"
+    },
+    "etiquetas": [
+      "romance",
+      "comedia",
+      "suspenso"
+    ],
+    "guia_instalacion": {
+      "principal": "no hay guia, simplemente mire",
+      "secundario": [
+        "o comprela"
+      ]
+    },
+    "fecha_publicacion": "2004/05/15",
+    "traductor": "helperkerx",
+    "estado": "publicado"
+  }
+]

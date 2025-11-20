@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/games.css">>
+    <link rel="stylesheet" href="../css/content.css">
+</head>
+
+<body>
+    <!-- ··························································· -->
+    <div class="background">
+        <div class="background1"></div>
+        <div class="background2"></div>
+    </div>
+    <!-- ··························································· -->
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="toggle">Directorio</a>
+                    <ul class="submenu">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Tiwtter</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="toggle">CONTENIDO</a>
+                    <ul class="submenu">
+                        <li><a href="#">Juegos</a></li>
+                        <li><a href="#">Manga</a></li>
+                        <hr>
+                        <li><a href="#">Juegos H</a></li>
+                        <li><a href="#">Manga H</a></li>
+                    </ul>
+                </li>
+                <img src="../img/morrinaEvelyn.jpg" alt="Logo">
+                <li>
+                    <a href="#" class="toggle">GUÍA</a>
+                    <ul class="submenu">
+                        <li><a href="#">Cómo empezar</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="toggle">SOPORTE</a>
+                    <ul class="submenu">
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Reportar problema</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ··························································· -->
+    <div class="content">
+        <div class="contenedor-central">
+            <h1 class="titulo">Título del juego</h1>
+            <div class="imagen-container">
+                <img src="../img/alog.webp" alt="Adventure Log">
+                <!-- Aqui deberá estar la "portada" a msotrar, se añadirá "../" a su ruta,
+                 por ejemplo aqui es "../" y se a de agregar a su ruta, en el json es "img/alog.webp" por ejemplo,
+                 combinando saldria "../img/alog.webp" -->
+            </div>
+            <div class="objetos">
+                <div class="objeto">
+                    <span class="flecha">&gt;</span> Descripción
+                    <div class="subitems">
+                        <!-- Aqui deberia ir su descripción ,cada linea del json es un parrafo-->>
+                    </div>
+                </div>
+                <div class="objeto">
+                    <span class="flecha">&gt;</span> Historia
+                    <div class="subitems">
+                        <!-- Aqui deberia ir la historia del juego, cada linea del json es un parrafo -->>
+                    </div>
+                </div>
+                <div class="objeto">
+                    <span class="flecha">&gt;</span> Detalles
+                    <div class="subitems">
+                        <div class="subitem">titulo original: <!-- Aqui deberia ir el titulo --> </div>
+                        <div class="subitem">Motor: <!-- Aqui deberia ir el Motor --> </div>
+                        <div class="subitem">Autor: <!-- Aqui deberia ir el Autor --> </div>
+                        <div class="subitem">Version: <!-- Aqui deberia ir la versión --> </div>
+                        <div class="subitem">Peso: <!-- Aqui deberia ir el peso --> </div>
+                        <div class="subitem">Contraseña de extracción : <!-- Aqui deberia ir el password --></div>
+                    </div>
+                </div>
+                <div class="objeto">
+                    <!-- Aqui deberia ir lo importante, si el contenido no posee "importante" lo omitira y no mostrará -->
+                    <span class="flecha">&gt;</span> Importante
+                    <div class="subitems">
+                        <div class="subitem">
+                            <!-- Aqui deberia ir el texto de importante, cada linea del json es un parrafo -->
+                        </div>
+                    </div>
+                </div>
+                <div class="objeto">
+                    <span class="flecha">&gt;</span> Guia instalación
+                    <div class="subitems">
+                        <div class="subitem">
+                            <!-- Aqui deberia ir sus notas, siendo especifico el "principal" ,cada linea del json es un parrafo-->>
+                            Consejo :
+                            <!-- Aqui deberia ir sus notas, siendo especifico el "secundario", se deberá mostrar ,cada linea del json es un parrafo-->>
+
+                        </div>
+                    </div>
+                </div>
+                Publicado y actualisado el <!-- fecha_publicacion --> y traducida por
+                <!-- traductor -->
+            </div>
+        </div>
+    </div>
+    <script src="../js/header.js"></script>
+    <script src="../js/content.js"></script>
+</body>
+
+</html>

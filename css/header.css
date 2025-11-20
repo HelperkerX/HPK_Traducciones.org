@@ -8,6 +8,10 @@ header {
     z-index: 99;
     padding-right: 0;
 
+    HR {
+        color: #F1E3C8;
+    }
+
     nav {
         color: #dbbe85;
         background-color: #393D32;
