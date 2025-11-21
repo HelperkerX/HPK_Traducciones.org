@@ -6,14 +6,17 @@ public class Main {
         boolean running = true;
 
         while (running) {
-            System.out.println("//-------------------");
+            System.out.println("============================================================================");
             System.out.println("Bienvenido, que deseas hacer?");
-            System.out.println("1.Añadir");
-            System.out.println("2.Modificar");
-            System.out.println("3.Eliminar");
-            System.out.println("4.Organizar");
-            System.out.println("5.Salir");
-            System.out.println("//-------------------");
+            System.out.println("Para elejir una opción escriba su numero correspondiente y presione ENTER");
+            System.out.println("============================================================================");
+            System.out.println("1. Añadir");
+            System.out.println("2. Modificar");
+            System.out.println("3. Eliminar");
+            System.out.println("4. Organizar");
+            System.out.println("============================================================================");
+            System.out.println("5. Salir");
+            System.out.println("============================================================================");
             System.out.print("Opción: ");
             String option = scanner.nextLine();
 

@@ -1,20 +1,26 @@
 .content {
-    margin: 0 auto;
     position: relative;
     z-index: 4;
 }
 
 .contenedor-central {
-    border: solid 2px #FF0000;
-    background-color: #1F2125;
-    height: 1000px;
-    color: #F1E3C8;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     max-width: 900px;
-    margin: 50px auto;
+    width: 100%;
+    min-height: 1000px;
+    height: auto;
+    border: 2px solid #FF0000;
+    background-color: #1F2125;
+    color: #F1E3C8;
     padding: 30px;
+    margin-top: 50px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    box-sizing: border-box;
 }
+
 
 /* Imagen centrada */
 .imagen-container {
@@ -30,9 +36,7 @@
 
 /* H1 centrado parcialmente dentro del bloque */
 .titulo {
-    margin-left: 10%;
-    /* centrado aproximado */
-    text-align: left;
+    text-align: center;
     font-family: Arial, sans-serif;
     font-size: 2em;
     margin-bottom: 20px;
@@ -41,6 +45,7 @@
 /* Objetos (desplegables) */
 .objetos {
     margin-left: 10%;
+    margin-right: 10%;
     font-family: Arial, sans-serif;
     line-height: 1.6;
 }
@@ -60,9 +65,29 @@
 
 .subitems {
     display: none;
-    margin: 10px 15% 0px 5%;
+    margin: 0px 0px 0px 5%;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .subitem {
     margin-bottom: 5px;
+}
+
+.image-gallery-container {
+    overflow-x: auto;
+    margin: 50px 0 25px 0;
+
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    width: max-content;
+    scroll-behavior: smooth;
+}
+
+.image-gallery img {
+    flex: 0 0 auto;
+    height: auto;
 }
